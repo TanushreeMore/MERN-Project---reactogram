@@ -2,12 +2,13 @@ import React from 'react';
 import './Login.css';
 import socialDesktop from '../imgs/social-desktop.PNG';
 import socialMobile from '../imgs/social-mobile.PNG';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
     <div className='container login-container'>
         <div className="row">
-            <div className="col-md-7 col-sm-12">
+            <div className="col-md-7 col-sm-12 d-flex justify-content-center align-items-center  ">
                 <img className='socialDesktop' style={{height: '85%'}} src={socialDesktop} alt='Social Desktop'/>
                 <img className='socialMobile' src={socialMobile} alt='Social Mobile'/>
             </div>
@@ -33,7 +34,7 @@ const Login = () => {
                             <div className="mt-3 mb-5 d-grid">
                             <button className="custom-btn custom-btn-white">
                                 <span className='text-muted fs-6 '>Don't have an account?</span>
-                                <span className='ms-1 text-info fw-bold'>Sign Up</span>
+                                <Link to="/signup" className='ms-1 text-info fw-bold'>Sign Up</Link>
                             </button>
                             </div>
                         </form>

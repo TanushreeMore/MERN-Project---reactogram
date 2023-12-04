@@ -38,4 +38,17 @@
     .socialDesktop{
         display: none;
     }
+    .login-container{
+        margin-top: 2.5rem;
+    }
+    .card{
+        border: none !important;
+    }
+    .card-body{
+        padding-left: 1.4rem !important;
+        padding-right: 1.4rem !important;
+    }
+    .shadow{
+        box-shadow: none !important;
+    }
 }
