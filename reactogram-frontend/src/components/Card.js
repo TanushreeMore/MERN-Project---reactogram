@@ -13,7 +13,7 @@ const Card = () => {
                             <img className='profile-pic' alt='Profile' src='https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDYzfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D' />
                             <div className="mt-2">
                                 <p className="fs-6 fw-bold">Title</p>
-                                <p>Description</p>
+                                <p className='location'>Description</p>
                             </div>
                         </div>
                         <div className="col-6">
