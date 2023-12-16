@@ -3,11 +3,11 @@
     height: 130px;
     border-radius: 50%
 }
-/* .profile-pic{
+.profile-pic-card{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-} */
+}
 .count-section{
     border-right: 3px solid #c3c3c3;
 }

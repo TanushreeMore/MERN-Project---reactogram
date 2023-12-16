@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Profile.css";
 // import Button from 'react-bootstrap/Button';
 import Modal from "react-bootstrap/Modal";
-import moreAction from "../imgs/more-action.PNG";
+// import moreAction from "../imgs/more-action.PNG";
 import horizontalMoreAction from "../imgs/horizontalMoreAction.PNG";
 import "../components/Card.css";
 
@@ -207,9 +207,9 @@ const Profile = () => {
               <div className="row my-3">
                 <div className="col-6 d-flex ">
                   <img
-                    className="p-2 profile-pic"
+                    className="p-2 profile-pic-card"
                     alt="Profile"
-                    src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDYzfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+                    src="https://images.unsplash.com/photo-1494979362559-7f9efdc9b88c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGlncmVzc3xlbnwwfHwwfHx8MA%3D%3D"
                   />
                   <div className="mt-2 ms-2 ">
                     <p className="fs-5 fw-bold">Title</p>
@@ -223,7 +223,7 @@ const Profile = () => {
                       role="button"
                       data-bs-toggle="dropdown"
                     >
-                      <img alt="more action" src={horizontalMoreAction} />
+                      <img className="" alt="more action" src={horizontalMoreAction} />
                     </a>
 
                     <ul className="dropdown-menu">
