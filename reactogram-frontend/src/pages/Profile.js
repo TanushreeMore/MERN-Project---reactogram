@@ -54,7 +54,7 @@ const Profile = () => {
             <button className="custom-btn custom-btn-white me-md-3 px-4 fw-medium shadow">
               <span className="fs-6 ">Edit Profile</span>
             </button>
-            <button className="custom-btn custom-btn-white px-4 fw-medium shadow">
+            <button className="custom-btn custom-btn-white px-4 fw-medium shadow" onClick={handlePostShow}>
               <span className="fs-6 ">Upload Post</span>
             </button>
           </div>
